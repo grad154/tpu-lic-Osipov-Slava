@@ -48,3 +48,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+    def compeller():
+    what = randint(0, 2)
+    match what:
+        case 0:
+            slogi()
+        case 1:
+            ending()
+        case 2:
+            oppening()
